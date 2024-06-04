@@ -19,6 +19,26 @@ const camaraderieServers: PlayerConfig[] = [
   new PlayerConfig("9335177", SupportedServers.bancho),
   new PlayerConfig("12197", SupportedServers.gatari),
 ];
+
+const metalvampirServers: PlayerConfig[] = [
+  new PlayerConfig("10558588", SupportedServers.bancho),
+  new PlayerConfig("7625", SupportedServers.gatari),
+];
+
+const abkuServers: PlayerConfig[] = [
+  new PlayerConfig("15919161", SupportedServers.bancho),
+  new PlayerConfig("27752", SupportedServers.gatari),
+];
+
+const fedotoffServers: PlayerConfig[] = [
+  new PlayerConfig("7351448", SupportedServers.bancho),
+];
+
+const iceSharkServers: PlayerConfig[] = [
+  new PlayerConfig("9459674", SupportedServers.bancho),
+  new PlayerConfig("23051", SupportedServers.gatari),
+];
+
 const players = [
   new Player("SnakeTwix", snakeTwixServers),
   new Player("camaraderie", camaraderieServers),
